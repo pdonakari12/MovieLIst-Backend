@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="MoviesWebApi-120220616121445" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\parasharam_donakari\\source\\repos\\MoviesWebApi-1\\MoviesWebApi-1\\obj\\Release\\net5\.0\\win-x86\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="MoviesWebApi_1.ApplicationDBContext" description="" value="Data Source=tcp:movieswebapi-1dbserver1991.database.windows.net,1433;Initial Catalog=MoviesWebApi-1_db;User Id=parasharamdonakari@movieswebapi-1dbserver1991;Password=Parasdon@123456" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\parasharam_donakari\\source\\repos\\MoviesWebApi-1\\MoviesWebApi-1\\obj\\Release\\net5\.0\\win-x86\\PubTmp\\EFSQLScripts\\MoviesWebApi_1\.ApplicationDBContext\.sql$" />
+  </parameter>
+</parameters>

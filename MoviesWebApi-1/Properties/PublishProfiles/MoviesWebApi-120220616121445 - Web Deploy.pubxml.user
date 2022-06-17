@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkeIqwR+J9ECor/MejWpr5wAAAAACAAAAAAADZgAAwAAAABAAAAD7vxXiCJVoGVti1oph3/P4AAAAAASAAACgAAAAEAAAAIn7N9RFCUzL92DkP9lkTCyAAAAAv5D3yOfwawKEuocbcjINci74eDL8dfmAS+Eerhvng5mwIqwdP2205cqkyIhzQLwxdiVaxgbEQEfzNifwX7oIUP0PiHPrH2i/OBienMHbjFa+e1QI5NtdYSEWUUpxSCbuWAOvCFdGC5nvUwUN0/NOfeOXkyJMQaLiIiL+QJecfJkUAAAA6bRpN89i6THWE09ZXPuxyXBeMIA=</EncryptedPassword>
+    <History>True|2022-06-16T07:42:37.0975439Z;False|2022-06-16T13:00:21.4841531+05:30;True|2022-06-16T12:37:28.5299743+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="MoviesWebApi_1.ApplicationDBContext">
+      <Value>Data Source=tcp:movieswebapi-1dbserver1991.database.windows.net,1433%3bInitial Catalog=MoviesWebApi-1_db%3bUser Id=parasharamdonakari%40movieswebapi-1dbserver1991%3bPassword=Parasdon%40123456</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
